@@ -1,0 +1,26 @@
+{
+
+    "manifest_version": 2,
+    "name": "tj-reader",
+    "version": "1.0",
+  
+    "description": "Browser extension for reading Times Journal Articles.",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.times-journal.com/*"],
+        "js": ["tj-reader.js"]
+      }
+    ],
+
+    "applications": {
+        "gecko": {
+          "id": "tj-reader@h1k.afh"
+        }
+      }
+  
+  }

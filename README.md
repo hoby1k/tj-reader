@@ -3,7 +3,7 @@
 Browser extension for reading Times Journal Articles.
 
 ## Installation
-*Before installing I strongly recommend reading my spill on [security](##Security-Note) below.*
+*Before installing I strongly recommend reading my spill on [security](#Security-Note) below.*
 
 The tj-reader extension has been tested and compiled for both Firefox and Google Chrome.
 
